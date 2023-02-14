@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(90deg, #e8e9cb, #a5e8dab9);
+}
+
+.main {
+    margin: 0 auto;
+    width: 40%;
+    border: 5px double gray;
+    margin-top: 40vh;
+}
+
+h1, .btn {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #c45e68;
+    font-size: 1.3em
+}
+
+.btn {
+    border: 3px solid black;
+    width: 120px;
+    padding: 5px;
+    margin: 0 auto 10px auto
+
+}
+
