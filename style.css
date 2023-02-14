@@ -40,14 +40,15 @@ a:active {
     margin-bottom: 25px;
 }
 
- ul {
-    width: 210px;
-    margin: 0 auto 20px auto;
-} 
-
-li {
-    list-style: outside circle;
-    text-align: center;
-    font-size: 1.2em;
+img {
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
+p {
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: #8a4b4b;
+    text-align: center;
+}
