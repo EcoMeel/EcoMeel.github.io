@@ -6,7 +6,9 @@ body {
     margin: 0 auto;
     width: 40%;
     border: 5px double gray;
+    /* border-radius: 3px; */
     margin-top: 40vh;
+    box-shadow: 5px 5px 10px gray;
 }
 
 h1, .btn {
@@ -16,14 +18,36 @@ h1, .btn {
 a {
     text-decoration: none;
     color: #c45e68;
-    font-size: 1.3em
+    font-size: 1.3em;
+    border: 2px solid black;
+    background: linear-gradient(45deg, #dddcbb, #e2a5a5);
+    padding: 5px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+
+}
+
+a:hover {
+    color: white
+}   
+
+a:active {
+    box-shadow: inset -1px -1px 2px black;
 }
 
 .btn {
-    border: 3px solid black;
-    width: 120px;
-    padding: 5px;
-    margin: 0 auto 10px auto
+    margin-bottom: 25px;
+}
 
+ ul {
+    width: 210px;
+    margin: 0 auto 20px auto;
+} 
+
+li {
+    list-style: outside circle;
+    text-align: center;
+    font-size: 1.2em;
 }
 
